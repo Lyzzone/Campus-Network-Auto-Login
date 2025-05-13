@@ -9,8 +9,8 @@ import gzip
 import io
 
 # --- 用户配置 ---
-USERNAME = "2020021082"
-PLAINTEXT_PASSWORD = "b881691214B" # 你的真实密码
+USERNAME = "" # 学号
+PLAINTEXT_PASSWORD = "" # 密码
 EPORTAL_BASE_URL = "http://10.254.241.19/eportal/"
 SERVICE_NAME = "电信" # 你确认手动选择此服务可成功
 
