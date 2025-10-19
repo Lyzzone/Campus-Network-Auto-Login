@@ -17,9 +17,9 @@ SERVICE_NAME = "电信" # 你确认手动选择此服务可成功
 # --- 高级配置 ---
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
 # 用于触发校园网关返回JS跳转代码的HTTP URL
-CONNECTIVITY_TRIGGER_URL = "http://www.bilibili.com/" 
+CONNECTIVITY_TRIGGER_URL = "http://www.baidu.com/" 
 # 用于初始网络状态检查 和 登录成功后验证真实网络连通性的HTTPS URL
-VERIFY_CONNECTIVITY_URL = "https://www.bilibili.com/" 
+VERIFY_CONNECTIVITY_URL = "https://www.baidu.com/" 
 
 DEFAULT_PUB_EXPONENT = "10001"
 
@@ -268,4 +268,5 @@ def main():
         print(f"登录POST请求过程中发生未知错误: {e}")
 
 if __name__ == "__main__":
+
     main()
