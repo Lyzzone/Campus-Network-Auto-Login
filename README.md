@@ -46,9 +46,9 @@ SERVICE_NAME = "你登录时选择的服务名称" # 例如: "电信", "校园�
 
 # --- 高级配置 (通常不需要修改，但可以根据实际情况调整) ---
 # 用于触发校园网关返回JS跳转代码的HTTP URL
-CONNECTIVITY_TRIGGER_URL = "http://www.bilibili.com/" 
+CONNECTIVITY_TRIGGER_URL = "http://www.baidu.com/" 
 # 用于初始网络状态检查 和 登录成功后验证真实网络连通性的HTTPS URL
-VERIFY_CONNECTIVITY_URL = "https://www.bilibili.com/" 
+VERIFY_CONNECTIVITY_URL = "https://www.baidu.com/" 
 ```
 
 **重要提示：**
@@ -92,3 +92,4 @@ VERIFY_CONNECTIVITY_URL = "https://www.bilibili.com/"
 ## 贡献
 
 欢迎提交 Pull Requests 或 Issues 来改进此脚本。如果你发现脚本在你的学校网络中工作不正常，请提供尽可能详细的错误信息、你的 Eportal 系统版本（如果知道的话）以及相关的（已脱敏的）网络请求和响应数据，以便分析和修复。
+
